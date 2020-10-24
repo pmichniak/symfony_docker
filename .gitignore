@@ -1,0 +1,43 @@
+
+###> symfony/framework-bundle ###
+/.env
+/.env.test
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+##############################################################3
+
+/var/*
+!/var/.gitkeep
+
+# composer.local.json is referenced in composer-merge-plugin
+# remove this for your projects if you want to track the file
+/composer.local.json
+
+# composer
+/.composer
+
+# PhpStorm / IDEA
+.idea
+
+# keep legacy paths ignored for easier migration
+/plugins/
+/tools/
+/website/
+.temp
+tests/coverage
+tests/report
+.docker-sync
+
